@@ -88,3 +88,23 @@ h2 {
 .idea-h2:hover {
     color: black;
 }
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .container-div {
+        min-width: 95vh;
+    }
+
+    .flex-container {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .dinner {
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+
+}

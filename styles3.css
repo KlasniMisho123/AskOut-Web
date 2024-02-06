@@ -62,3 +62,15 @@ h2 {
 		gap: 3%;
 }
 
+@media screen and (min-width: 400px) and (max-width: 600px) {
+	
+    .container-div {
+		gap: 20%;
+        min-width: 95vh;
+    }
+
+    .side {
+        gap: 80px;
+    }
+
+}
